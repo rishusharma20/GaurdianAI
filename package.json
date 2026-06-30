@@ -1,0 +1,19 @@
+{
+  "name": "guardian-ai",
+  "version": "1.0.0",
+  "description": "Guardian AI — Autonomous Mission Control System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "@google/generative-ai": "^0.24.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.0",
+    "express-session": "^1.19.0",
+    "googleapis": "^173.0.0",
+    "sqlite3": "^6.0.1"
+  }
+}
